@@ -15,7 +15,7 @@ export default function Header() {
 
   const handleCTA = () => {
     if (challengeId && challengeId !== "default") {
-      router.push("/signup");
+      router.push("/rules/qualifying");
       setIsOpen(false);
     }
   };
@@ -80,7 +80,9 @@ export default function Header() {
                   : "bg-[#800000] hover:bg-[#9b0000] text-white"
               } px-6 py-2 font-thin rounded-xs shadow transition-all`}
             >
-              {challengeId === "default"?"Select Challenge":"Join Challenge"}
+              {challengeId === "default"
+                ? "Select Challenge"
+                : "Join Challenge"}
             </Button>
           </div>
         </div>

@@ -20,12 +20,12 @@ export default function Hero() {
 
   const handleCTA = () => {
     if (challengeId && challengeId !== "default") {
-      router.push("#signup");
+      router.push("/rules/qualifying");
     }
   };
 
   return (
-    <section className="mt-2 md:mt-10 relative min-h-[62vh] md:min-h-[70vh] flex flex-col items-center justify-center text-center px-4 pt-24 overflow-hidden">
+    <section className="mt-2 md:mt-10 relative h-screen flex flex-col items-center justify-center text-center px-4 pt-24 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 -z-10">
         <Image

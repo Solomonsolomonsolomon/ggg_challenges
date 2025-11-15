@@ -16,10 +16,11 @@ export const rulesSections: Record<string, RulesSection> = {
   planks: {
     title: "Planks Challenge Rules",
     items: [
+      "You have read and agreed to the qualifying rules",
       "Maintain correct form throughout.",
       "Time will be tracked strictly.",
       "No resting on elbows or knees.",
-      "Cash prize awarded to the top performer.",
+      "Cash prize awarded to the top 3 performers.",
     ],
   },
 };
