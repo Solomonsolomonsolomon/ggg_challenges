@@ -1,7 +1,7 @@
 "use client";
 
 import { useChallenge } from "@/context/challengeContext";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import signupForms from "@/data/signupform";
 
@@ -9,6 +9,13 @@ const SignupPage = () => {
   const { challengeId } = useChallenge();
   const router = useRouter();
   const formConfig = signupForms[challengeId] || signupForms.default;
+
+  // Redirect to home if no challenge is selected
+  useEffect(() => {
+    if (challengeId === "default") {
+      router.push("/");
+    }
+  }, [challengeId, router]);
 
   const initialFormState = formConfig.fields.reduce(
     (acc, field) => ({ ...acc, [field.name]: "" }),
