@@ -81,7 +81,7 @@ export default function QualifyingRules() {
             font-thin
           "
         >
-          Proceed to competing rules
+          Next
         </button>
       </div>
     </section>

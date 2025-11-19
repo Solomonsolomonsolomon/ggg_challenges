@@ -21,7 +21,7 @@ export const qualifyingRulesSections: Record<string, RulesSection> = {
       "Fill up your data on the next page.",
       "Announce your participation on X using the hashtags #GGGplankchallenge and #GGG.",
       "Obtain 10 reposts before February 17th, 2026.",
-      "Send a WhatsApp message to 08164166630 to join the challenge group chat.",
+      "To be added into the #GGGplankchallenge group chat where all information will be delivered, send a WhatsApp message to 08164166630.",
       "By proceeding, you consent to us using your media on our platforms.",
     ],
   },
