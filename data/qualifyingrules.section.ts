@@ -9,7 +9,7 @@ export const qualifyingRulesSections: Record<string, RulesSection> = {
     items: [
       "Fill up your data on the next page.",
       "With the challenge flier, announce your participation on X (Twitter) using the hashtags #GGGplankchallenge and #GGG.",
-      "Get 10 reposts on your announcement before February 17th, 2026.",
+      "Get 10 reposts on your announcement before February 20th, 2026.",
       "To be added into the #GGGplankchallenge group chat where all information will be delivered, send a WhatsApp message to 08164166630.",
       "By clicking to the next page, you give us permission to use your media on our platforms.",
     ],

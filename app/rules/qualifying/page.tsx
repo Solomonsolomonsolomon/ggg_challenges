@@ -3,6 +3,7 @@
 import { useChallenge } from "@/context/challengeContext";
 import { qualifyingRulesSections } from "@/data/qualifyingrules.section";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export default function QualifyingRules() {
   const { challengeId } = useChallenge();
@@ -45,6 +46,10 @@ export default function QualifyingRules() {
             </div>
           ))}
         </div>
+
+        <Link href="/about" className=" underline block pt-3 w-full text-center text-[#800000]">
+          Learn about the purpose of this challenge
+        </Link>
 
         <button
           onClick={() => router.back()}
